@@ -1,14 +1,15 @@
 [package]
-edition = "2024"
-name    = "fvp-rs"
-version = "0.1.0"
+description = "Packing and unpacking FVP game engine `.bin` archive."
+edition     = "2024"
+name        = "fvp-rs"
+version     = "0.1.0"
 
 [dependencies]
 byteorder       = "1.5"
 encoding_rs     = "0.8"
 palc            = { version = "0.0.2", optional = true }
-path-absolutize = { version = "3.1.1", optional = true }
-tap             = { version = "1.0.1", optional = true }
+path-absolutize = { version = "3", optional = true }
+tap             = { version = "1", optional = true }
 thiserror       = "2"
 
 [dev-dependencies]
